@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tan #B68D40
+Cream #F4EBD0
+Charcoal #122620
+Gold #D6AD60 */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #122620;
+}
+
+header img{
+    height: 45px;
+    width: auto;
+}
+header ul{
+    padding: 0 20px;
+    display: flex;
+    color: #B68D40;
+    list-style: none;
+    gap: 20px;
+}
+
+.pag1 {
+    display: flex;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #122620;
+}
+
+.pag1 img {
+    position: relative;
+    height: 20rem;
+    margin-left: 20rem;
+}
+
+.pag1  h1 {
+    position: absolute;
+    background-color: transparent;
+    margin-left: -40rem;
+    color: #F4EBD0;
+    margin-top: -8rem;
+    font-size: 3rem;
+}
+
+.pag1 .h1cor {
+    background-color: transparent;
+    color: #b68d40;
+}
+
+.pag1 button {
+    position: absolute;
+    margin-left: -33rem;
+    margin-top: -5rem;
+    /*cores*/
+    background-color: #F4EBD0;
+    color: #B68D40;
+    border: none;
+    border-radius: 50px;
+    /*Tamanho*/
+    height: 40px;
+    width: 200px;
+}
+
+.explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #122620;
+}
+.explore h2{
+    color: #d6ad60;
+}
+
+.explore hr{
+    border: none;  
+    width: 300px;        
+    height: 2px;          
+    background-color: #F4EBD0; 
+}
+
+.catalogo{
+    display: flex;
+    justify-content: space-around;
+    background-color: #122620;
+    padding-left: 300px;
+    gap: 250px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #d6ad60;
+    color: #122620;
+    width: 310px;
+    height: 380px;
+    border-radius: 15px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.card h4{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.card .mmf{
+    margin-top: 100px;
+    margin-left: 5rem;
+    margin-right: 20px;
+}
+
+.card .mmf .line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .mmf h4{
+margin-top: 2rem;
+}
+
+.card .mmf button{
+    background-color: #B68D40;
+    color: #122620;
+    border: none;
+    border-radius: 50px;
+    margin-top: 30px;
+    /*Tamanho*/
+    height: 40px;
+    width: 170px;
+}
+
+.card-img{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-right: 170px;
+    margin-left: -30px;
+    margin-top: -18rem;
+    gap: 50px;
+}
+
+.card-img .car1 {
+    width: 327px;
+    height: 247px;
+    border-radius: 15px;
+}
+
